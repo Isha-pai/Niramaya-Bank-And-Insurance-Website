@@ -1,0 +1,56 @@
+/* Add this to your CSS file or style section */
+
+.profile {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px; /* Adjust the width as needed */
+  padding: 10px;
+  background-color: #0ac6d3;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.profile-heading {
+  color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-self: center;
+}
+
+.profile-section {
+  margin: 10px 0;
+}
+
+.profile-label {
+  margin-right: 10px;
+}
+
+.profile-input,
+.profile-text {
+  width: 100%;
+  padding: 8px;
+}
+
+.profile-button {
+  background-color: #1b3db8;
+  color: #fffefe;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ align-self: center;
+ width: 100%;
+}
+
+.profile-button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,30 @@
+img{
+    width: 30px;
+}.loan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height if needed */
+  }
+  
+  .title {
+    font-size: 2rem; /* Adjust the font size as needed */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  
+  .table {
+    width: 90%; /* Adjust the width as needed */
+    max-width: 1200px; /* Maximum width of the table */
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px; /* Adjust the padding as needed */
+  }
+  
+  .table img {
+    width: 24px; /* Adjust the width of the images as needed */
+    height: 24px; /* Adjust the height of the images as needed */
+  }
+  
